@@ -8,7 +8,7 @@ import { TipoDeHabilidadInterface } from '../model/tipo-de-habilidad-interface';
 })
 
 export class TipoHabilidadService {
-  private urlData = 'http://localhost:8080/tipohabilidad';
+  private urlData = 'https://portfolio-argpro-backend.onrender.com/tipohabilidad';
 
   constructor(private http: HttpClient) { }
 

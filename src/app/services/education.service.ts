@@ -13,7 +13,7 @@ const httpOptions = {
 
 export class EducationService {
 
-  private urlData = 'http://localhost:8080/educacion';
+  private urlData = 'https://portfolio-argpro-backend.onrender.com/educacion';
 
   constructor(private http: HttpClient) { }
 
